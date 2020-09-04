@@ -1,0 +1,9 @@
+**/venv*/
+**/*venv*/
+**/.DS_Store
+**/.idea
+**/*.pyc
+**/*.cfg
+**/log/*.log
+**/python*/
+**/homework*
