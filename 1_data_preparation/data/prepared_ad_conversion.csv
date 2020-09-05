@@ -1,0 +1,41 @@
+,id,full name,gender,age bucket,color scheme,seen count,followed ad,made purchase,ad effectiveness,user rating
+0,12001,Dan Ferguson,M,18-35,green,7,0,0,0,1
+1,12002,Justin Gibson,M,35-99,blue,3,1,1,0,5
+2,12005,Wendy Sharp,F,35-99,blue,0,0,0,-1,1
+3,12007,Ryan Hart,M,6-18,blue,5,1,0,0,5
+4,12009,Wendy Poole,F,18-35,blue,8,0,0,0,1
+5,12012,Melanie,F,18-35,red,5,0,0,0,1
+6,12014,Emma Anderson,F,35-99,green,4,0,0,0,1
+7,12015,Joanne Parr,F,6-18,blue,5,1,0,0,1
+8,12019,Anna Payne,F,6-18,red,4,0,0,0,1
+9,12021,Sally Skinner,F,35-99,green,5,0,0,0,1
+10,12022,Anthony Abraham,M,35-99,green,6,1,1,0,3
+11,12028,Natalie King,F,18-35,green,0,0,0,-1,1
+12,12030,Andrea Stewart,F,18-35,red,3,1,1,0,5
+13,12032,Joshua Churchill,M,18-35,blue,5,1,0,0,1
+14,12034,Jacob Welch,M,18-35,blue,4,0,0,0,1
+15,12036,Michael Burgess,M,18-35,blue,4,0,0,0,1
+16,12038,Adrian Ogden,M,18-35,blue,5,0,0,0,1
+17,12039,Carl,M,18-35,green,1,0,0,0,1
+18,12041,James Rampling,M,18-35,blue,5,0,0,0,1
+19,12049,Simon Thomson,M,18-35,blue,5,0,0,0,1
+20,12051,Isaac,M,6-18,green,7,1,0,0,2
+21,12053,Trevor MacDonald,M,6-18,blue,7,0,0,0,1
+22,12055,Dorothy,F,18-35,green,4,0,0,0,1
+23,12056,Edward Henderson,M,18-35,red,7,1,1,0,4
+24,12061,William Langdon,M,6-18,green,5,1,0,0,2
+25,12063,Kimberly,F,18-35,blue,4,0,0,0,1
+26,12064,Carol,F,35-99,red,5,1,0,0,1
+27,12065,Justin Quinn,M,18-35,blue,4,0,0,0,1
+28,12066,Simon Rampling,M,35-99,red,1,0,0,0,1
+29,12068,Sonia Berry,F,6-18,green,6,0,0,0,1
+30,12070,Dorothy May,F,18-35,blue,7,0,0,0,1
+31,12071,Luke,M,unknown,blue,3,0,0,0,1
+32,12080,Deirdre Quinn,F,18-35,green,6,0,0,0,1
+33,12084,Justin King,M,18-35,red,2,1,1,0,5
+34,12085,Rose Howard,F,18-35,red,5,1,0,0,1
+35,12089,Vanessa Terry,F,18-35,green,7,1,1,0,4
+36,12091,Amy Rutherford,F,unknown,green,4,0,0,0,1
+37,12092,Oliver Newman,M,6-18,green,9,1,0,0,1
+38,12097,Faith Mitchell,F,18-35,green,8,1,0,0,2
+39,12100,Felicity Dyer,F,6-18,red,6,1,0,0,1
