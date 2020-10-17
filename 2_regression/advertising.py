@@ -31,7 +31,27 @@ print(advertising_data)
 ad_data = advertising_data[["TV", "radio", "newspaper"]]
 sales_data = advertising_data[["sales"]]
 
+linear_regression = sk_linear_models.LinearRegression()
+lasso_regression = sk_linear_models.Lasso()
+ridge_regression = sk_linear_models.Ridge()
+
+linear_regression.fit(ad_data, sales_data)
+lasso_regression.fit(ad_data, sales_data)
+ridge_regression.fit(ad_data, sales_data)
+
 labels = advertising_data.columns.values
+
+print("Linear regression.")
+print(model_to_string(linear_regression, labels))
+print()
+
+print("Ridge regression (L2).")
+print(model_to_string(ridge_regression, labels))
+print()
+
+print("Lasso regression (L1).")
+print(model_to_string(lasso_regression, labels))
+print()
 
 X_train, X_test, y_train, y_test = sk_model_selection.train_test_split(ad_data, sales_data, shuffle=True)
 
@@ -53,4 +73,3 @@ for z in range(len(labels) - 1):
     print(model_to_string(model_2_features, labels_2_features))
     print("Test MSE = {}".format(get_MSE(model_2_features, X_test_2_features, y_test)))
     print()
-
