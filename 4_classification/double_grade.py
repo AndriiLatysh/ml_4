@@ -41,4 +41,15 @@ print(qualifies_double_grade.sort_values(by="modeled_probability"))
 print(qualification_model.coef_)
 print(qualification_model.intercept_)
 
+plt.clf()
+
+plt.xlabel("False positive rate")
+plt.ylabel("True positive rate")
+
+false_positive_rate, true_positive_rate, thresholds = sk_metrics.roc_curve(y, modeled_qualification_probability)
+plt.plot(false_positive_rate, true_positive_rate)
+
+roc_auc = sk_metrics.roc_auc_score(y, modeled_qualification_probability)
+print(f"Area under curve: {roc_auc}")
+
 plt.show()
