@@ -1,0 +1,10 @@
+history,term,income,risk
+excellent,3,high,low
+fair,10,low,high
+fair,3,high,low
+bad,10,high,high
+excellent,3,low,low
+fair,10,high,low
+bad,3,high,low
+bad,10,low,high
+excellent,10,low,low
